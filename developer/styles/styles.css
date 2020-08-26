@@ -23,11 +23,7 @@ a{
     color: black
 }
 
-img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
+
 
 /* ------------------------------------------------- */
 
@@ -67,6 +63,9 @@ img{
     right: 0;
     bottom: 0;
     width: 295px;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 
@@ -119,6 +118,9 @@ img{
 
 .about_circle img{
     padding-left: 1.6rem ;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .about_subtitle{
@@ -194,4 +196,10 @@ img{
 .hobbies_container{
     row-gap: 2rem;
     text-align: center;
+}
+
+.ula{
+    justify-items: center;
+    padding: 1rem;
+    row-gap: 2rem;
 }
