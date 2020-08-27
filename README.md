@@ -8,5 +8,5 @@ In this repository you will find the folder developer where is the code of my pe
 
 ## Demo 
 
-* Here is the link to the demo :
+* Here is the link to the page!
 https://web-entrega-uno-angela.web.app/
