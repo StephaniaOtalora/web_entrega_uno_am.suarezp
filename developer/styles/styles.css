@@ -176,15 +176,27 @@ a{
     row-gap: 2rem;
 }
 
+.hobbies_container{
+    justify-items: center;
+    padding: 1rem;
+    row-gap: 2rem;
+}
+
+/* EDUCATION */
+
 .education_container{
     justify-content: center;
     row-gap: 2rem;
     text-align: center;
 }
 
-.hobbies_container{
+
+
+/* WORK EXPERIENCE */
+.professional_container{
+    justify-items: center;
+    padding: 1rem;
     row-gap: 2rem;
-    text-align: center;
 }
 
 
@@ -224,6 +236,9 @@ a{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
     }
+
+ 
+    
     .footer_container{
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
