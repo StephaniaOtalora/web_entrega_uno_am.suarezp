@@ -22,10 +22,6 @@ a{
     color: black
 }
 
-
-
-/* ------------------------------------------------- */
-
 .bd-grid{
     max-width: 1024px;
     display: grid;
@@ -39,7 +35,7 @@ a{
 .home{
     position: relative;
     overflow: hidden;
-    background-color: #00B0FF;
+    background-color: #17a2b8;
 }
 .home_container{
     height: 96vh;
@@ -51,6 +47,7 @@ a{
     align-self: flex-end;
     line-height: .77;
     color: #FFFFFF;
+    text-shadow: 0 20px 25px rgba(0, 0, 0, .8);
 }
 
 .home_title span{
@@ -89,7 +86,7 @@ a{
     right: 0;
     margin: auto;
     top: 2rem;
-    background-color: #29B6F6;
+    background-color: #17a2b8;
 }
 
 /* ABOUT */ 
@@ -101,7 +98,7 @@ a{
 }
 
 .about_circle{
-    background-color: #00B0FF;
+    background-color: #17a2b8;
     width: 150px;
     margin-top: 2rem;
     height: 150px;
@@ -111,7 +108,7 @@ a{
 }
 
 .education_name{
-    color: #00B0FF;
+    color: #17a2b8;
     font-size: 1.4rem;
 }
 
@@ -155,6 +152,7 @@ a{
 }
 
 .footer_container{
+    color: #CFD8DC;
     row-gap: 2rem;
     padding-left: 2rem;
 }
@@ -177,14 +175,6 @@ a{
     padding: 1rem;
     row-gap: 2rem;
 }
-@media screen and (min-width: 768px){
-    :root{
-        --big-font-size: 7.5rem;
-        --h2-font-size: 2rem;
-        --normal-font-size: 1rem;
-        --small-font-size: .875rem;
-    }
-}
 
 .education_container{
     justify-content: center;
@@ -195,4 +185,61 @@ a{
 .hobbies_container{
     row-gap: 2rem;
     text-align: center;
+}
+
+
+/* MEDIA QUERIES */ 
+
+@media screen and (min-width: 768px){
+    body{
+        margin: 0;
+    }
+    .section{
+        padding-top: 4rem;
+    }
+    .section-title{
+        margin-bottom: 3rem;
+    }
+    .section-title::after{
+        width: 64px;
+        top: 3rem;
+    }
+    .home_container{
+        height: 100vh;
+        grid-template-rows: 1.7fr 1fr;
+        row-gap: 0;
+    }
+    .home_img{
+        width: 554px;   
+    }
+    .about_circle{
+        width: 200px;
+        height: 200px;
+    }
+
+    .about_circle img{
+        width: 465px;
+    }
+    .portafolio_container{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+    .footer_container{
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+
+    .home_title{
+        font-size: 10rem;
+    }
+
+    .bd-grid{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
