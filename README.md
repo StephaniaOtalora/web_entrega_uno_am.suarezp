@@ -11,4 +11,4 @@ In this repository you will find the folder developer where is the code of my pe
 * Here is the link to the page!
 https://web-entrega-uno-angela.web.app/
 
-/* This page use Firebase */
+* This page uses Firebase
