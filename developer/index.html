@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angela Suarez</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angela Suárez</title>
 
-    <!-- Links -->
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <!-- Style.css -->
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
     <!-- Box Icons-->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
-</head>
-<body>
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Navigation menu-->
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">Angela Suárez</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
           <ul class="navbar-nav mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a href="#home" class="nav-link">Home
+              <a href="#home" class="nav-link"
+                >Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -58,297 +74,414 @@
     </header>
 
     <main class="main-home">
-        <section class="home" id="home">
-            <div class="home_container bd-grid">
-                <h1 class="home_title"> 
-                    Hi, I am <br>
-                    Angela.
-                </h1>
+      <section class="home" id="home">
+        <div class="home_container bd-grid">
+          <h1 class="home_title">
+            Hi, I am <br />
+            Angela.
+          </h1>
 
-                <div class="home_scroll">
-                    <a href="#about" class="home__scroll_link"></a>
-                </div>
-
-                <img src="images/WhatsApp_Image_2020-08-25_at_6.50.41_PM-removebg-preview.png" alt="profile picture" class="home_img">
-
-                <!--FOTO-->
-            </div>
-
-        </section>
-        <section id="about">
-            <h2 class="section-title">About</h2>
-            <div class="about_container">
-
-                <div class="mx-auto about_circle">
-                    <img src="images/me.png" alt="profile picture" width="800" height="1200">
-                  </div>
-
-                <div>
-                    <h2 class="about_subtitle">Hello, my name is Angela Suárez.</h2>
-                    <span class="about_major">I am studying computer and system engineering at Los Andes University, Colombia. </span>
-                    <p>I am 21 years old, I was born on July 18th, 1999 in Chiquinquirá, Boyacá. I live in Chiquinquirá with my mom.</p>
-                    <div class="about_socialmedia">
-                        <a href="https://github.com/amsuarezp18" class="about_social_icon"><i class='bx bxl-github' ></i></a>
-                        <a href="https://twitter.com/amsuarezp" class="about_social_icon"><i class='bx bxl-twitter'></i></a>
-                        <a href="https://co.pinterest.com/amsuarezp/boards/" class="about_social_icon"><i class='bx bxl-pinterest-alt'></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="portafolio">
-            <h2 class="section-title">Portafolio</h2>
-            <div class="portafolio_container bd-grid">
-                <div class="card text-center">
-                    <div class="card-header">
-                      Logistics
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Logistics Module</h5>
-                      <p class="card-text">A logistics module that allows a company to keep track of their deliveries and define routes for deliveries</p>
-                    </div>
-                    <div class="card-footer text-muted">
-                      <h4><span class="badge badge-info">Django</span></h4>
-                    </div>
-                  </div>
-
-                  <div class="card text-center">
-                    <div class="card-header">
-                      Chat App
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">App to send messages and photos</h5>
-                      <p class="card-text">An App that allows users to send and receive messages and photos with a database realtime </p>
-                    </div>
-                    <div class="card-footer text-muted">
-                      <h4><span class="badge badge-info">Android with Java</span></h4>
-                
-                    </div>
-                  </div>
-
-                  <div class="card text-center">
-                    <div class="card-header">
-                      Thrift shop
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">App for buying and selling clothes of second hand</h5>
-                      <p class="card-text">An App that allows users to post second-hand clothes and buying others people clothes.</p>
-                    </div>
-                    <div class="card-footer text-muted">
-                      <h4><span class="badge badge-info">Android with Java</span></h4>
-        
-                    </div>
-                  </div>
-
-                  <div class="card text-center">
-                    <div class="card-header">
-                      FooDive App
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">App for booking restaurants</h5>
-                      <p class="card-text">FooDIve allowed users to book their favorite restaurants in Bogotá, also they saw the menu and prices.</p>
-                      
-                    </div>
-                    <div class="card-footer text-muted">
-                      <h4><span class="badge badge-info">Java EE & Angular</span></h4>
-                    </div>
-                  </div>
-
-            </div>
-        </section>
-
-        <section id="skills">
-            <h2 class="section-title">Skills</h2>
-            <div class="container">
-
-                <div class="row mb-2">
-                  <div class="col-md-12">
-                    <h3 class="skills_name">Java</h5>
-                    <div class="progress">
-                        <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                  </div>
-                </div>
-      
-                <div class="row mb-2">
-                  <div class="col-md-12">
-                    <h3 class="skills_name">Python</h5>
-                    <div class="progress">
-                        <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                  </div>
-                </div>
-      
-                <div class="row mb-2">
-                  <div class="col-md-12">
-                    <h3 class="skills_name">Lua</h5>
-                    <div class="progress">
-                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                  </div>
-                </div>
-      
-                <div class="row mb-2">
-                  <div class="col-md-12">
-                    <h3 class="skills_name">FrameWork: Django</h3>
-                    <div class="progress">
-                        <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                  </div>
-                </div>
-            </div>
-        </section>
-        <section id="education">
-            <h2 class="section-title">Education</h2>
-
-            <div class="education_container bd-grid">
-                <ul>
-                    <li>
-                        <h3 class="education_name">High School</h3> 
-                        <p> <i class='bx bxs-right-arrow-alt'></i> I attended high school at Nueva Inglaterra school in Chiquinquirá, Boyacá</p>
-                    </li>
-                    <li>
-                        <h3 class="education_name">University</h3>
-                        <p> <i class='bx bxs-right-arrow-alt'></i>I am currently studying computer and system engineering at Los Andes University.</p>
-                    </li>
-                </ul>
-            </div>
-        
-        </section>
-
-        <section id="work">
-          <h2 class="section-title">Professional experience</h2>
-
-          <div class="professional_container bd-grid">
-            <div class="card text-center">
-              <div class="card-header">
-                <h4><span class="badge badge-info">Tutor</span></h4>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"> 2020-10 & 2020-20</h5>
-                <p class="card-text"> 
-                  I have been a monitor of the Software Development course twice. <br>
-                  My job consists of helping the students, qualify the activities and be present in <br>
-                  the laboratory to answer questions.</p>
-              </div>
-            </div>
-
-            <div class="card text-center">
-              <div class="card-header">
-                <h4><span class="badge badge-info">Logistics module</span></h4>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">June-August 2020</h5>
-                <p class="card-text">
-                  I worked for two months in a glass company creating a logistics module in django.</p>
-              </div>
-            
-            </div>
-
+          <div class="home_scroll">
+            <a href="#about" class="home__scroll_link"></a>
           </div>
-      
+
+          <img
+            src="images/WhatsApp_Image_2020-08-25_at_6.50.41_PM-removebg-preview.png"
+            alt="profile picture"
+            class="home_img"
+          />
+
+          <!--FOTO-->
+        </div>
+      </section>
+      <section id="about">
+        <h2 class="section-title">About</h2>
+        <div class="about_container">
+          <div class="mx-auto about_circle">
+            <img
+              src="images/me.png"
+              alt="profile picture"
+              width="800"
+              height="1200"
+            />
+          </div>
+
+          <div>
+            <h2 class="about_subtitle">Hello, my name is Angela Suárez.</h2>
+            <!-- Change in the name of the degree according to the official website of the department -->
+            <span class="about_major"
+              >I am studying Systems and Computing Engineering at Los Andes
+              University, Colombia.
+            </span>
+            <p>
+              I am 21 years old, I was born on July 18th, 1999 in Chiquinquirá,
+              Boyacá. I live in Chiquinquirá with my mom.
+            </p>
+            <div class="about_socialmedia">
+              <a href="https://github.com/amsuarezp18" class="about_social_icon"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a href="https://twitter.com/amsuarezp" class="about_social_icon"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+              <a
+                href="https://co.pinterest.com/amsuarezp/boards/"
+                class="about_social_icon"
+                ><i class="bx bxl-pinterest-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
       </section>
 
+      <section id="portafolio">
+        <h2 class="section-title">Portafolio</h2>
+        <div class="portafolio_container bd-grid">
+          <div class="card text-center">
+            <div class="card-header">Logistics</div>
+            <div class="card-body">
+              <h5 class="card-title">Logistics Module</h5>
+              <p class="card-text">
+                A logistics module that allows a company to keep track of their
+                deliveries and define routes for deliveries.
+              </p>
+            </div>
+            <div class="card-footer text-muted">
+              <h4><span class="badge badge-info">Django</span></h4>
+            </div>
+          </div>
 
-        <section id="hobbies">
-            <h2 class="section-title">Hobbies </h2>
-            <div class="portafolio_container bd-grid">
-                  <div class="card" style="width: 16rem;">
-                    <img class="card-img-top" src="images/bike.png" alt="Image of a bike">
-                    <div class="card-body">
-                      <p class="card-text">I like riding bicycle</p>
-                    </div>
-                  </div>
+          <div class="card text-center">
+            <div class="card-header">Chat App</div>
+            <div class="card-body">
+              <h5 class="card-title">App to send messages and photos</h5>
+              <p class="card-text">
+                An App that allows users to send and receive messages and photos
+                with a database realtime.
+              </p>
+            </div>
+            <div class="card-footer text-muted">
+              <h4><span class="badge badge-info">Android with Java</span></h4>
+            </div>
+          </div>
 
-                  <div class="card" style="width: 16rem;">
-                    <img class="card-img-top" src="images/baking.png" alt="Image of baking">
-                    <div class="card-body">
-                      <p class="card-text">I like baking, especially banana bread</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 16rem;">
-                    <iframe width="256" height="315" src="https://www.youtube.com/embed/D-UmfqFjpl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="card-body">
-                      <p class="card-text">I like watching youtube videos</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 16rem;">
-                    <iframe src="https://open.spotify.com/embed-podcast/episode/0C8398QZHSSJI18NkWjaZs" width="256" height="315" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    <div class="card-body">
-                      <p class="card-text">I like to listen to Diana Uribe's podcast</p>
-                    </div>
-                  </div>
-                  </div>
-        </section>  
-        <section id="interests">
-            <h2 class="section-title">Interests </h2>
-            <div class="portafolio_container bd-grid">
-              <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="images/dashboard.png" alt="Image of a website" width="200" height="200">
-                <div class="card-body">
-                  <p class="card-text">Software Development.</p>
-                </div>
-              </div>
-              <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="images/compare.png" alt="Image of A/B tetsing" width="200" height="200">
-                <div class="card-body">
-                  <p class="card-text">Automated testing.</p>
-                </div>
+          <div class="card text-center">
+            <div class="card-header">Thrift shop</div>
+            <div class="card-body">
+              <h5 class="card-title">
+                App for buying and selling clothes of second hand
+              </h5>
+              <p class="card-text">
+                An App that allows users to post second-hand clothes and buying
+                others people clothes.
+              </p>
+            </div>
+            <div class="card-footer text-muted">
+              <h4><span class="badge badge-info">Android with Java</span></h4>
+            </div>
+          </div>
+
+          <div class="card text-center">
+            <div class="card-header">FooDive App</div>
+            <div class="card-body">
+              <h5 class="card-title">App for booking restaurants</h5>
+              <p class="card-text">
+                FooDive allowed users to book their favorite restaurants in
+                Bogotá, also they saw the menu and prices.
+              </p>
+            </div>
+            <div class="card-footer text-muted">
+              <h4><span class="badge badge-info">Java EE & Angular</span></h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="container">
+          <div class="row mb-2">
+            <div class="col-md-12">
+              <!-- Tag termination error -->
+              <h3 class="skills_name">Java</h3>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
               </div>
             </div>
-        </section>  
+          </div>
+
+          <div class="row mb-2">
+            <div class="col-md-12">
+              <!-- Tag termination error -->
+              <h3 class="skills_name">Python</h3>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-2">
+            <div class="col-md-12">
+              <!-- Tag termination error -->
+              <h3 class="skills_name">Lua</h3>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 50%"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-2">
+            <div class="col-md-12">
+              <h3 class="skills_name">FrameWork: Django</h3>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education">
+        <h2 class="section-title">Education</h2>
+
+        <div class="education_container bd-grid">
+          <ul>
+            <li>
+              <h3 class="education_name">High School</h3>
+              <p>
+                <i class="bx bxs-right-arrow-alt"></i> I attended high school at
+                Nueva Inglaterra school in Chiquinquirá, Boyacá
+              </p>
+            </li>
+            <li>
+              <h3 class="education_name">University</h3>
+              <!-- Change in the name of the degree according to the official website of the department -->
+              <p>
+                <i class="bx bxs-right-arrow-alt"></i>I am currently studying
+                Systems and Computing Engineering at Los Andes University.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="work">
+        <h2 class="section-title">Professional experience</h2>
+
+        <div class="professional_container bd-grid">
+          <div class="card text-center">
+            <div class="card-header">
+              <h4><span class="badge badge-info">Tutor</span></h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">2020-10 & 2020-20</h5>
+              <p class="card-text">
+                I have been a monitor of the Software Development course twice.
+                <br />
+                My job consists of helping the students, qualify the activities
+                and be present in <br />
+                the laboratory to answer questions.
+              </p>
+            </div>
+          </div>
+
+          <div class="card text-center">
+            <div class="card-header">
+              <h4><span class="badge badge-info">Logistics module</span></h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">June-August 2020</h5>
+              <p class="card-text">
+                I worked for two months in a glass company creating a logistics
+                module in Django.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hobbies">
+        <h2 class="section-title">Hobbies</h2>
+        <div class="portafolio_container bd-grid">
+          <div class="card" style="width: 16rem">
+            <img
+              class="card-img-top"
+              src="images/bike.png"
+              alt="Image of a bike"
+            />
+            <div class="card-body">
+              <p class="card-text">I like riding bicycle</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 16rem">
+            <img
+              class="card-img-top"
+              src="images/baking.png"
+              alt="Image of baking"
+            />
+            <div class="card-body">
+              <p class="card-text">I like baking, especially banana bread</p>
+            </div>
+          </div>
+          <div class="card" style="width: 16rem">
+            <iframe
+              width="256"
+              height="315"
+              src="https://www.youtube.com/embed/D-UmfqFjpl0"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+
+            <div class="card-body">
+              <p class="card-text">I like watching youtube videos</p>
+            </div>
+          </div>
+          <div class="card" style="width: 16rem">
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/0C8398QZHSSJI18NkWjaZs"
+              width="256"
+              height="315"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+            <div class="card-body">
+              <p class="card-text">I like to listen to Diana Uribe's podcast</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="interests">
+        <h2 class="section-title">Interests</h2>
+        <div class="portafolio_container bd-grid">
+          <div class="card" style="width: 13rem">
+            <img
+              class="card-img-top"
+              src="images/dashboard.png"
+              alt="Image of a website"
+              width="200"
+              height="200"
+            />
+            <!-- Center the text -->
+            <div class="card-body text-center">
+              <p class="card-text">Software Development</p>
+            </div>
+          </div>
+          <div class="card" style="width: 13rem">
+            <img
+              class="card-img-top"
+              src="images/compare.png"
+              alt="Image of A/B tetsing"
+              width="200"
+              height="200"
+            />
+            <!-- Center the text -->
+            <div class="card-body text-center">
+              <p class="card-text">Automated testing</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="footer_container bd-grid">
-            <div class="footer_info">
-                <h2 class="footer_name"> ANGELA MARÍA SUÁREZ PARRA</h2>
-                <p class="footer_text">My name is Angela Suárez and this is my personal website</p>
-            </div>
-
-            <div class="footer_info">
-                <h2 class="footer_name">CONTENT</h2>
-                <ul>
-                    <li>
-                        <a href="#home" class="footer_social">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about" class="footer_social">About</a>
-                    </li>
-                    <li>
-                        <a href="#skills" class="footer_social">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#portafolio" class="footer_social">Portafolio</a>
-                    </li>
-                    <li>
-                        <a href="#education" class="footer_social">Education</a>
-                    </li>
-                    <li>
-                      <a href="#hobbies" class="footer_social">Hobbies</a>
-                    </li>
-                    <li>
-                      <a href="#interests" class="footer_social">Interests</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="footer_info">
-                <h2 class="footer_name">FOLLOW</h2>
-                <a href="https://github.com/amsuarezp18" class="icon_social"><i class='bx bxl-github' ></i></a>
-                <a href="https://twitter.com/amsuarezp" class="icon_social"><i class='bx bxl-twitter'></i></a>
-                <a href="https://co.pinterest.com/amsuarezp/boards/" class="icon_social"><i class='bx bxl-pinterest-alt'></i></a>
-            </div>
-
-            
+      <div class="footer_container bd-grid">
+        <div class="footer_info">
+          <h2 class="footer_name">ANGELA MARÍA SUÁREZ PARRA</h2>
+          <!-- Class does not exist -->
+          <p>My name is Angela Suárez and this is my personal website</p>
         </div>
+
+        <div class="footer_info">
+          <h2 class="footer_name">CONTENT</h2>
+          <ul>
+            <!-- A new class is created and a color is assigned to the items -->
+            <li>
+              <a href="#home" class="footer_social">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="footer_social">About</a>
+            </li>
+            <li>
+              <a href="#skills" class="footer_social">Skills</a>
+            </li>
+            <li>
+              <a href="#portafolio" class="footer_social">Portafolio</a>
+            </li>
+            <li>
+              <a href="#education" class="footer_social">Education</a>
+            </li>
+            <li>
+              <a href="#hobbies" class="footer_social">Hobbies</a>
+            </li>
+            <li>
+              <a href="#interests" class="footer_social">Interests</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_info">
+          <h2 class="footer_name">FOLLOW</h2>
+          <a href="https://github.com/amsuarezp18" class="icon_social"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://twitter.com/amsuarezp" class="icon_social"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            href="https://co.pinterest.com/amsuarezp/boards/"
+            class="icon_social"
+            ><i class="bx bxl-pinterest-alt"></i
+          ></a>
+        </div>
+      </div>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
     <script src="scripts/app.js"></script>
-
-</body>
+  </body>
 </html>
